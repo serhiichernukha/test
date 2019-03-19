@@ -15,6 +15,6 @@ node() {
     }
 
     stage('Push image') {
-        sh "echo Pushing"
+        sh "echo Pushing hard"
     }
 }
