@@ -7,7 +7,7 @@ node() {
 
     stage('Build') {
         sh "echo Building"
-        sh "docker build -t /app/ ."
+        sh "docker build -t alp:jenkinsbuild /app"
     }
 
     stage('Tests') {
